@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dünyanın En Güzel Kızı</title>
+    <style> 
+        body { display:flex;
+            text-align: center;
+            background-color:#c0c0c0;
+            margin: 0;
+            font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+            justify-content: center;
+            align-items: center;
+            height:auto
+        }
+        /* İçerik genişliği */
+        .content {
+            max-width: 600px;
+        }
+
+        h1 { color: #FF1493; /* Başlık 1 için pembe */ }
+
+        h3 {color: #4B0082; /* Başlık 3 için mor */}
+
+        p {color: #000080; /* Paragraf yazısı için koyu mavi */}
+        img {
+            border-radius: 10px; /* Resme hafif bir kenar yuvarlaması ekler */
+            max-width: 100%; /* Resmi genişlik sınırı olan 600px'e uyacak şekilde ayarlar */
+            height: auto; /* Resmin orantılı kalmasını sağlar */
+        }
+    </style>
+</head>
+<body>
+    <div class="content">
+        <h1>Dünyanın En Güzel kızı</h1>
+        <p>Senden önce kendimi kaybolmuş gibi hissediyordum. Her yer karanlıktı ve bir daha asla güneş doğmayacaktı sanki içimde. Sonra sen geldin ve beni saklandığım o karanlık kuyudan çıkardın. Bana yeniden sevmeyi daha da önemlisi tekrardan güvenebilmeyi öğrettin. O kadar sıkı sarıldın ki bana, sanki yıllarca kaldık öyle.
+        Ellerimi tuttuğun o ilk günden beri kalbim yalnızca senin için atıyor sevgilim.</p>
+        <h3>Seni Çok Seviyorum</h3>
+        <img src="images/sudee.jpeg" alt="Dünyanın en güzel kızı" width="400" height="400">
+    </div>
+</body>
+</html>
